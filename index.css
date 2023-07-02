@@ -1,0 +1,153 @@
+.back{
+   
+    height: 740  px;
+    
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    margin-top: -10px;
+}
+#move{
+    margin-left: 650px;
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+}
+#move2{
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.image{
+    float: right;
+    margin: -100px 150px 100px 100px;
+}
+.btn{
+    border: 2px solid black;
+    color: grey;
+    cursor: pointer;
+    background-color: white;
+    margin-top: 20px;
+    border-color: rgb(141, 141, 141);
+    border-radius: 10px;
+    font-weight: 600;
+    
+}
+.btn1{
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    margin-top: 20px;
+    border-color: rgb(141, 141, 141);
+    border-radius: 10px;
+}
+.outline{
+    border-color: black;
+    color: white;
+    margin-top: 30px;
+    width: 165px;
+    height: 55px;
+    font-weight: bold;
+}
+.outline:hover{
+    background-color: white;
+    color: black;
+}
+.navbar-brand{
+    font-weight: bold;
+    margin-left: 40px;
+}
+.nav-item{
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: "Epilogue";
+}
+.content{
+    margin: 40px 0 0 210px;
+}
+h1{
+    font-weight: bold;
+    font-size: 5rem;
+    word-wrap: break-word;
+    width: 490px;
+}
+p{
+    font-size: 18px;
+    font-family: "Epilogue";
+    color: gray;
+    font-weight: 500;
+    margin-top: 50px;
+    
+}
+.icons{
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+.two{
+margin-left: 35px;
+font: bold;
+}
+.two:hover{
+    color: black;
+
+}
+
+#closeButton{
+    display: none;
+}
+  
+@media (max-width: 1028px) {
+    
+    #img{
+        text-align: center;
+        height: 500px;
+        width: 400px;
+    }
+    h1{
+        font-size: 3rem;
+        margin-left: 70px;
+    }
+    .content{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .icons{
+        margin-left: 130px;
+        margin-bottom: 100px;
+    }
+    .side-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100vh;
+        background-color: #f8f9fa;
+        padding: 20px;
+        transition: right 0.3s;
+      }
+      
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .side-nav li {
+    margin-bottom: 10px;
+  }
+
+  .side-nav a {
+    text-decoration: none;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-color: white;
+  }
+    
+}
